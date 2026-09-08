@@ -26,5 +26,4 @@ export default function KindyProgramPage() {
   );
 }
 
-
 export default KindyProgramPage
