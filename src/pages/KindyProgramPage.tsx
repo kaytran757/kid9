@@ -1,6 +1,9 @@
 import PageBanner from '@/components/shared/PageBanner';
 import CourseOverview from '@/components/programs/kindy/CourseOverview';
 import LearningOutcomes from '@/components/programs/kindy/LearningOutcomes';
+import TeachingMethod from '@/components/programs/kindy/TeachingMethod';
+import LearningRoadmap from '@/components/programs/kindy/LearningRoadmap';
+import MidPageCTA from '@/components/programs/kindy/MidPageCTA';
 
 export default function KindyProgramPage() {
   return (
@@ -15,7 +18,13 @@ export default function KindyProgramPage() {
       />
       <CourseOverview />
       <LearningOutcomes />
-      {/* TODO Phase 2: TeachingMethod, LearningRoadmap, MidPageCTA */}
+      <TeachingMethod />
+      <LearningRoadmap />
+      <MidPageCTA />
+      {/* TODO Phase 3: Testimonials, TeacherPreview, LearningSpace, FinalCTA */}
     </>
   );
 }
+
+
+export default KindyProgramPage
